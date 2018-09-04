@@ -16,3 +16,6 @@
 @mixin sans-serif-font() {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+@mixin banner(){
+  font-family: 'Delius Swash Caps', cursive;
+}
