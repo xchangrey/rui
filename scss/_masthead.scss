@@ -19,6 +19,9 @@ header.masthead {
     font-weight: 300;
     color: $primary;
   }
+  img.banner-logo {
+      width: 200px!important;
+  }
   @media (min-width: 768px) {
     p {
       font-size: 1.15rem;
