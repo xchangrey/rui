@@ -11,7 +11,7 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #FFEA00;
+  border-color: #ffea00;
 }
 
 hr.light {
@@ -19,7 +19,7 @@ hr.light {
 }
 
 a {
-  color: #FFEA00;
+  color: #ffea00;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #FFEA00 !important;
+  background-color: #ffea00 !important;
 }
 
 .bg-dark {
@@ -92,7 +92,7 @@ img::-moz-selection {
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #FFEA00;
+  color: #ffea00;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -110,12 +110,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #FFEA00;
+  color: #ffea00;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #FFEA00 !important;
+  color: #ffea00 !important;
   background-color: transparent;
 }
 
@@ -151,7 +151,7 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #FFEA00;
+    color: #ffea00;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #feea00;
@@ -162,7 +162,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #FFEA00;
+    color: #ffea00;
   }
 }
 
@@ -183,16 +183,22 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 1rem;
+  font-family: 'Delius Swash Caps', cursive;
 }
 
 header.masthead h1 strong {
-  color: #FFEA00;
+  color: #ffea00;
+  font-family: 'Delius Swash Caps', cursive;
 }
 
 header.masthead p {
   font-weight: 300;
-  color: #FFEA00;
+  color: #ffea00;
+}
+
+header.masthead img.banner-logo {
+  width: 200px !important;
 }
 
 @media (min-width: 768px) {
@@ -210,12 +216,14 @@ header.masthead p {
   }
   header.masthead h1 {
     font-size: 3rem;
+    font-family: 'Delius Swash Caps', cursive;
   }
 }
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 4rem;
+    font-size: 2rem;
+    font-family: 'Delius Swash Caps', cursive;
   }
 }
 
@@ -287,7 +295,11 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #FFEA00 !important;
+  color: #ffea00 !important;
+}
+
+.text-danger {
+  color: #e400a7 !important;
 }
 
 .btn {
@@ -303,8 +315,8 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #FFEA00;
-  border-color: #FFEA00;
+  background-color: #ffea00;
+  border-color: #ffea00;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
